@@ -53,6 +53,10 @@
 - [디바이스 로그 조회 REST API 구축](https://kwanulee.github.io/IoTPlatform/api-gateway-3.4.html)
 
 ### 3. Android 앱 설치 및 실행
+- 설치 방법
+	- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
+	
+	![](figures/install.png)
 
 - 초기 실행 화면
 
