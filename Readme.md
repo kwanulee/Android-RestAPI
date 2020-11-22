@@ -71,12 +71,12 @@
 ### 3. Android 앱 설치 및 실행
 - 설치 방법
 	- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
-	
-	![](figures/install.png)
+
+		![](figures/install.png)
 
 - 초기 실행 화면
 
-![](figures/screenshot1.png)
+	![](figures/screenshot1.png)
 
 - 아래 세가지 버튼을 클릭하기 전에 API URI를 입력해야 합니다.
 	- Amazon API Gateway로 부터 만들어진  API 서버 URL을 기록해 둔다. 

@@ -47,7 +47,7 @@ public class GetThings extends GetRequest {
     @Override
     protected void onPostExecute(String jsonString) {
         TextView message = activity.findViewById(R.id.message);
-        if (jsonString == null) {
+        if (jsonString == null || jsonString.equals("")) {
             message.setText("디바이스 없음");
             return;
         }
