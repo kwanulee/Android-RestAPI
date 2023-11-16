@@ -60,17 +60,15 @@
 
 다음 방법을 통해서 다음 IoT 백엔드를 구축한다.
 
-1. [AWS IoT와 아두이노 연결하기](https://kwanulee.github.io/IoTPlatform/start-aws-iot.html#2)
-2. [디바이스 상태에 따라 경고 이메일을 전송하는 IoT 백엔드 구축](https://kwanulee.github.io/IoTPlatform/serverless.html#3)
-3. [디바이스 데이터 저장 IoT 백엔드 구축](https://kwanulee.github.io/IoTPlatform/dynamodb.html#4)
-4. [디바이스 목록 조회 REST API 구축](https://kwanulee.github.io/IoTPlatform/api-gateway-3.1.html)
-5. [디바이스 상태 조회 REST API 구축](https://kwanulee.github.io/IoTPlatform/api-gateway-3.2.html)
-6. [디바이스 상태 변경 REST API 구축](https://kwanulee.github.io/IoTPlatform/api-gateway-3.3.html)
-7. [디바이스 로그 조회 REST API 구축](https://kwanulee.github.io/IoTPlatform/api-gateway-3.4.html)
+1. [AWS IoT로 DHT-11 센서 및 LED 제어](https://kwanulee.github.io/AWS_IoT_DHT11/)
+2. [AWS Lambda를 이용한 Device Monitoring 실습](https://kwanulee.github.io/DeviceMonitoringWithLambda/)
+3. [DynamoDB를 이용한 백엔드 구축하기](https://kwanulee.github.io/DynamoDB/)
+4. [API Gateway를 통한 Device Shadow 액세스 하기](https://kwanulee.github.io/APIGateway/#3)
 
 ### 3. Android 앱 설치 및 실행
 - 설치 방법
 	- **Clone or download** 를 클릭 후, Download ZIP을 통해 프로젝트 zip파일을 다운 받아서 압축을 푼 후에, AndroidStudio를 통해 실행 시킵니다.
+	- 현재 배포된 버전은 **API 29 이하** 버전에서 테스트됨
 
 		![](figures/install.png)
 
@@ -100,3 +98,5 @@
 		```
 		https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices/{devices_name}/log
 		```	
+		
+		
